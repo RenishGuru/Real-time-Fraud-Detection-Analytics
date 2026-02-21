@@ -8,7 +8,6 @@ gold_path = "/Volumes/workspace/default/fraud_project/gold/user_spending"
 # Dynamic checkpoint version
 checkpoint = f"/Volumes/workspace/default/fraud_project/checkpoint/transactions_{int(time.time())}"
 
-# ✅ Always safe
 dbutils.fs.mkdirs(checkpoint)
 
 silver_df = (
