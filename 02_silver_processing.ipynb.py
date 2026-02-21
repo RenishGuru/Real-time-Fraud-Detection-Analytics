@@ -30,6 +30,6 @@ silver_stream = (
     .option("checkpointLocation", checkpoint)
     .outputMode("append")
     .queryName("fraud_silver_stream")
-    .trigger(availableNow=True)     # ✅ REQUIRED FOR SERVERLESS
+    .trigger(availableNow=True)   
     .start(silver_path)
 )
