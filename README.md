@@ -31,8 +31,9 @@ KPI-ready aggregated tables
 
 ⚙️ Tech Stack
 Databricks
-PySpark
-Spark SQL
-Delta Lake
-Lakehouse Architecture
-Dashboarding
+PySpark,
+Spark SQL,
+Delta Lake,
+Lakehouse Architecture,
+Dashboarding.
+
