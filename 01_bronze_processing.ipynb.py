@@ -26,7 +26,7 @@ bronze_stream = (
     .format("delta")
     .option("checkpointLocation", checkpoint)
     .outputMode("append")
-    .trigger(availableNow=True)   # ✅ FIX
+    .trigger(availableNow=True)   
     .queryName("fraud_bronze_stream")
     .start(bronze_path)
 )
